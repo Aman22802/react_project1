@@ -1,0 +1,98 @@
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+
+
+.main-section{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1px;
+    
+}
+
+
+.box {
+    margin-top: 148px;
+    height: 415px;
+    /* width: 76%; */
+    background: white;
+    /* border: 2px solid red; */
+    margin-left: 6px;
+    padding: 30px;
+    box-shadow: aquamarine;
+    box-shadow: 1px 3px 19px #151414;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+
+
+.breakfast{
+    color: gray;
+}
+
+
+
+.box img {
+    width: 391px;
+    height: 158px;
+}
+
+.count {
+    border-radius: 50%;
+    background-color: white;
+    padding: 3px 10px;
+    box-shadow: 0px 0px 6px black;
+    border: 2px solid gray;
+}
+
+.orderNow {
+    cursor: pointer;
+    margin-left: 317px;
+}
+
+hr {
+    position: relative;
+    right: 46px;
+    max-width: 314px;
+}
+
+.read {
+    position: relative;
+    top: -24px;
+    left: 341px;
+    /* bottom: 22px; */
+}
+
+/* .btn-group{
+    padding: 12px;
+    border: 2px solid red;
+} */
+
+.btn{
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    justify-content: center;
+    padding: 25px;
+
+  
+}
+
+.btn-group{
+    border: 2px solid red;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 10px;
+    color: aliceblue;
+    background-color: black;
+}
+
+.btn-group:hover{
+    /* color: aqua; */
+    cursor: pointer;
+    background-color: red;
+}
