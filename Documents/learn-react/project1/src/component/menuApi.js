@@ -50,6 +50,14 @@ const Menu = [
     category: "Aman",
     price: 150,
     Description: "lorem of object",
+},
+{
+    id: 6,
+    image: "images/maggi.jpg",
+    Name:"Smosa",
+    category: "Fast Food",
+    price: 150,
+    Description: "lorem of object",
 }
 
    
